@@ -1,18 +1,17 @@
-"""create db
+"""Create Game Model
 
-Revision ID:faebd12f9523   
-Revises: 
-Create Date: 2023-03-15 13:20:05.247015
+Revision ID: 6384e3d8886d
+Revises: 10445ce78ef5
+Create Date: 2024-01-11 16:04:33.659910
 
 """
 from alembic import op
 import sqlalchemy as sa
 
 
-
 # revision identifiers, used by Alembic.
-revision = 'faebd12f9523'
-down_revision = None
+revision = '6384e3d8886d'
+down_revision = '10445ce78ef5'
 branch_labels = None
 depends_on = None
 
